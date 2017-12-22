@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>404 animation</title>
+<!--CSS style-->
+			<style>
+			.st0{
+  fill:none;stroke:#4896EC;
+  stroke-width:26;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  mix-blend-mode: multiply;
+}
+
+.st1{
+    fill:none;stroke:#21CE99;
+    stroke-width:26;
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+    mix-blend-mode: multiply;
+  }
+
+.st2{
+  fill:#f2f2f2;
+}
+
+#animated404{
+  width:auto;
+  height:auto;
+  margin: auto;
+  width:50%;
+  height:50%;
+  background-color:#f2f2f2;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+}
+			</style>
+		</head>
+
+
+<body>
+  <!--SVG Animation-->
+    <div id="animated404"> <svg viewBox="0 0 581.8 238.4">
+      <g class="lines first">
+					<path class="st0" d="M13,154.8h170"/>
+      	<path class="st0" d="M120.2,23.8v196"/>
+        <path class="st1" d="M13,154.8L120.1,23.7"/>
+      </g>
+
+        <g class="dot first">
+      	<path class="st2" d="M12.5,160.4c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C18.1,158,15.6,160.4,12.5,160.4z"/>
+      	<path class="st2" d="M120.5,160.4c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C126.1,158,123.6,160.4,120.5,160.4z"/>
+      	<path class="st2" d="M119.5,29.4c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5C125.1,27,122.6,29.4,119.5,29.4z"
+      		/>
+      </g>
+
+      <g class="lines second">
+      	<path class="st1" d="M238.4,65v110"/>
+      	<path class="st1" d="M343.4,65v110"/>
+      	<path class="st0" d="M238.2,65.7c0-29.1,23.6-52.7,52.7-52.7c29.1,0,52.7,23.6,52.7,52.7"/>
+      	<path class="st0" d="M343.7,172.6c0,29.1-23.6,52.7-52.7,52.7c-29.1,0-52.7-23.6-52.7-52.7"/>
+      </g>
+
+        <g class="dot second">
+        <path class="st2" d="M238.2,70.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S241.2,70.6,238.2,70.6z"/>
+      	<path class="st2" d="M343.7,70.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C349.3,68.2,346.8,70.6,343.7,70.6z"/>
+      	<path class="st2" d="M343.7,178.9c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C349.3,176.5,346.8,178.9,343.7,178.9z"/>
+      	<path class="st2" d="M238.2,178.9c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S241.2,178.9,238.2,178.9z"/>
+      </g>
+
+      <g class="lines thrid">
+      	<path class="st0" d="M506,23.8v196"/>
+      	<path class="st0" d="M398.8,154.8h170"/>
+        <path class="st1" d="M398.8,154.8L505.9,23.7"/>
+      </g>
+
+        <g class="dot third"> 
+      	<path class="st2" d="M398.3,160.4c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C403.9,158,401.4,160.4,398.3,160.4z"/>
+      	<path class="st2" d="M506.3,160.4c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      		C511.9,158,509.4,160.4,506.3,160.4z"/>
+      	<path class="st2" d="M505.3,29.4c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S508.4,29.4,505.3,29.4z"/>
+      </g>
+
+      <g class="dots">
+        
+      </g>
+    </div>
+
+  <!--In Sequence Animation -->
+  <!-- <div id="EnigmaDrawing"> <svg viewBox="0 0 581.8 238.4">
+    <g class="first lines">
+      <path class="st0" d="M120.2,13.1v196"/>
+    	<path class="st0" d="M13,144.1h170"/>
+    	<path class="st1" d="M13,144.1L120.1,13"/>
+    	<path class="st2" d="M12.5,149.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+    		C18.1,147.3,15.6,149.7,12.5,149.6z"/>
+    	<path class="st2" d="M120.5,149.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+    		C126.1,147.3,123.6,149.7,120.5,149.6z"/>
+    	<path class="st2" d="M119.5,18.6c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5C125.1,16.3,122.6,18.7,119.5,18.6z"/>
+    </g>
+    <g class="second lines">
+      <path class="st0" d="M13.2,65v110"/>
+    	<path class="st0" d="M118.2,65v110"/>
+    	<path class="st1" d="M13,65.7C13,36.6,36.6,13,65.7,13s52.7,23.6,52.7,52.7"/>
+    	<path class="st1" d="M118.5,172.6c0,29.1-23.6,52.7-52.7,52.7S13,201.8,13,172.6"/>
+    	<path class="st2" d="M13,70.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S16.1,70.6,13,70.6z"/>
+    	<path class="st2" d="M118.6,70.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S121.6,70.6,118.6,70.6z"/>
+    	<path class="st2" d="M118.6,178.9c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S121.6,178.9,118.6,178.9z"/>
+    	<path class="st2" d="M13,178.9c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5S16.1,178.9,13,178.9z"/>
+    </g>
+    <g class="thrid lines">
+      <path class="st0" d="M120.2,13.1v196"/>
+      <path class="st0" d="M13,144.1h170"/>
+      <path class="st1" d="M13,144.1L120.1,13"/>
+      <path class="st2" d="M120.5,149.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5
+      C126.1,147.3,123.6,149.7,120.5,149.6z"/>
+      <path class="st2" d="M119.5,18.6c-3.1,0-5.5-2.5-5.5-5.5s2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5C125.1,16.3,122.6,18.7,119.5,18.6z"/>
+      <path class="st2" d="M12.5,149.6c-3.1,0-5.5-2.5-5.5-5.5c0-3,2.5-5.4,5.6-5.3c3.1,0,5.5,2.5,5.5,5.5C18.1,147.3,15.6,149.7,12.5,149.6z"/>
+    </g>
+  </div> -->
+
+
+</body>
+<script src="anime.min.js"></script>
+<script>
+var lineDrawing = anime({
+  targets: '#animated404 .lines path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 400,
+  delay: function(el, i) { return i * 200 },
+  direction: 'alternate',
+  loop: true
+});
+
+var lineDrawing = anime({
+  targets: '#animated404 .st2 path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  opacity: .0,
+  duration: 800,
+  delay: function(el, i) { return i * 200 },
+  direction: 'alternate',
+  loop: true
+});
+</script>
+
+</html>
+
+<!-- JS Libraries Used
+http://animejs.com/ -->
